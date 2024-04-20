@@ -54,6 +54,7 @@ class ContactForm extends React.Component {
     render() {
         return (
             <div className="contact-us-section">
+                <div className="glassmorphism-effect">
                 <div className="contact-us-content">
                     <div className="right-content">
                         <span className="small-text">Contact Us</span><br />
@@ -62,14 +63,18 @@ class ContactForm extends React.Component {
                     </div>
                     <div className="left-content">
                         <form onSubmit={this.sendMessage}>
+                            <div className="input-row">
                             <div className="contact-input-box">
                                 <input id="uname" type="text" placeholder="Name" />
                             </div>
                             <div className="contact-input-box">
                                 <input id="email" type="email" placeholder="Email Address" />
                             </div>
-                            <div className="contact-input-box">
-                                <input id="message" type="text" placeholder="Enter your Message" style={{ paddingTop: '25px', paddingBottom: '25px' }} />
+                            </div>
+                            <div className="full-width-input">
+                            <div className="contact-input-box-message">                                 
+                                <input id="message" type="text" placeholder="Enter your Message" style={{ paddingTop: '25px', paddingBottom: '25px' }} />  
+                                </div>
                             </div>
                             <div className="button">
                                 <input
@@ -81,6 +86,8 @@ class ContactForm extends React.Component {
                         </form>
                     </div>
                 </div>
+                </div>
+                
             </div>
         );
     }
