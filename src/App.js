@@ -1,5 +1,4 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-// TO MAINTAIN A LINK BETWEEN MULTIPLE PAGES OF THE WEBSITE.
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
@@ -40,4 +39,3 @@ function App() {
 }
 
 export default App;
-//Atharv se header.jsx lene ki zaroorat nai hai.
