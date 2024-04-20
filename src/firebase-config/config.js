@@ -1,28 +1,3 @@
-// import firebase from 'firebase/app';
-// import 'firebase/firestore';
-// import 'firebase/storage';
-
-// const firebaseConfig = {
-//     apiKey: "AIzaSyDRYNZ0EOMM5UpAsjc8BdnLeC15DekZoFc",
-//     authDomain: "nurture-testing-3facd.firebaseapp.com",
-//     projectId: "nurture-testing-3facd",
-//     storageBucket: "nurture-testing-3facd.appspot.com",
-//     messagingSenderId: "81516224614",
-//     appId: "1:81516224614:web:23086208a1cb72244f8da7",
-//     measurementId: "G-53H8LP4GKG"
-// };
-
-// if (!firebase.apps.length) {
-//     firebase.initializeApp(firebaseConfig);
-// } else {
-//     firebase.app();
-// }
-
-// const db = firebase.firestore();
-// const storage = firebase.storage();
-
-// export { db, storage };
-
 import firebase from 'firebase/compat/app'
 import 'firebase/compat/firestore'
 
