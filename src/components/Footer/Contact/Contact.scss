@@ -44,6 +44,8 @@
             }
 
             button {
+                z-index: 100;
+                cursor: pointer;
                 background-color: #368942;
                 transition: 0.2s ease-in-out;
             }
@@ -87,6 +89,7 @@
         }
 
         form {
+            z-index: -1;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -136,6 +139,7 @@
         }
 
         button {
+            z-index: 100;
             width: 100%;
             max-width: 200px;
             padding: 10px;
